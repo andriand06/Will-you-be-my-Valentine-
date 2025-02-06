@@ -1,4 +1,5 @@
 const letters = [
+    "Sometimes when my luck is running out, i look at you and remember the blesings that fell into my life.",
     "You light up my life in every way. Thank you for being my rock and my joy. I love you more with each passing day.",
     "Being with you is a dream come true. You make every day special and fill my heart with love.",
     "You are the most amazing person I have ever met. You make the world a better place. I love you more than words can say.",
