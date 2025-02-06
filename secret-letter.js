@@ -1,23 +1,26 @@
 const letters = [
+    "My patience was worth it because i found someone perfect and it will forever be one of my greatest achievements.",
+    "You saved me from myself, gave me help when i was helpless, and loved me when i felt unlovable.",
+    "You taught me to love myself, showing me how to be selfless.",
+    "Your love became my cure, it became my therapy, because of you I'm happier this way.",
+    "I would love to meet you all over again for the first time.",
     "Sometimes when my luck is running out, i look at you and remember the blesings that fell into my life.",
-    "You light up my life in every way. Thank you for being my rock and my joy. I love you more with each passing day.",
-    "Being with you is a dream come true. You make every day special and fill my heart with love.",
-    "You are the most amazing person I have ever met. You make the world a better place. I love you more than words can say.",
-    "You are my heart and soul, my forever and always. Thank you for being the love of my life.",
-    "Your love is a treasure I hold dear. Thank you for filling my life with happiness and warmth.",
-    "Every moment with you is a gift. You are my everything, and I am grateful for your love.",
-    "Your love is my guiding light. Thank you for being my everything.",
-    "Your love completes me. I am the luckiest person in the world to have you.",
-    "You make my heart sing with joy. I cherish every moment with you.",
-    "You make my life beautiful. Thank you for your endless love."
+    "When i stare into your eyes, i see every memory and the future where our love blooms endlessly.",
+    "Don't ever change, you're perfect in every way, your laugh, your voice, your smile, your beauty, your soul, your hear, there is nothing i could change about you.",
+    "We didn't meet by chance, it was fate, it was always meant to be. Our souls met in a different life, and reunited in this one.",
+    "I could never love anyone the way i love you and that's the story of my life for now and forever.",
+    "Thank you for healing everything that has been hurting for so long. You are my miracle.",
+    "Thank you for being patiet with me and loving me in the way that i understand, and for compromising where it's needed, and for being compatible in the finest of details.",
+    "Thank you, my love."
 ]
 const secretLetterButton = document.querySelector('.secret-letter-button');
 const secretLetter = document.querySelector('.secret-letter');
 
-const letter = letters[Math.floor(Math.random() * letters.length)];
-secretLetter.textContent = letter
+const letterIndex = 0;
+secretLetter.textContent = letters[letterIndex]
 
 secretLetterButton.addEventListener('click', function() {
-    const letter = letters[Math.floor(Math.random() * letters.length)];
+    letterIndex++;
+    const letter = letters[letterIndex];
     secretLetter.textContent = letter;
 });
